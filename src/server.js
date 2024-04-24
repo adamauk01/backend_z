@@ -11,8 +11,7 @@ const hostname = process.env.HOST_NAME;
 
 configViewEngine(app);
 
-app.use('/', webRoutes)
-
+app.use('/', webRoutes);
 
 
 connection.query(
